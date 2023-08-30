@@ -1,0 +1,25 @@
+{
+    "contactos": [
+        {
+            
+            "nombre": "Juan carlos",
+            "apellido": "Marroquin",
+            "numero": "78875657",
+            "favorito": false
+        },
+        {
+            
+            "nombre": "Edwin Ivan",
+            "apellido": "Reyes Figueroa",
+            "numero": "22886545",
+            "favorito": false
+        },
+        {
+            
+            "nombre": "Josue Eduardo",
+            "apellido": "Fuentes",
+            "numero": "45568734",
+            "favorito": false
+        }
+    ]
+}
