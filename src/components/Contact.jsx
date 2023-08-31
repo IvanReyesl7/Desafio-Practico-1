@@ -1,8 +1,9 @@
 import { React } from "react";
+import contactos from "../contactos.json"
 
 const Contact = ({nombre,apellido,numero,index}) =>{
 
-
+    
     
     return(
         <>
@@ -16,7 +17,7 @@ const Contact = ({nombre,apellido,numero,index}) =>{
             <h3 >{numero}</h3>
             </div>
             <div className=" bg-red-600 px-15 pr-15">
-                <button className="text-white uppercase font-bold" onClick={() =>dropContacto(index)}>Eliminar</button>
+                <button className="text-white uppercase font-bold" onClick={() => dropContacto(index)}>Eliminar</button>
             </div>
          </div>
          
